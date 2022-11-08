@@ -1,11 +1,13 @@
+import About from "./Main/About";
 import Main from "./Main/Main";
+import Song from "./Main/Song";
 
 function App() {
   return (
-    <div>
-      {/* <Main /> */}
-      <h1 className="text-[#135423] ">Welcome</h1>
-      <h3>join</h3>
+    <div className="">
+      <Main />
+      <About />
+      <Song />
     </div>
   );
 }
